@@ -9,7 +9,7 @@ docker build -t ic .
 
 #### How to run
 ```bash
-docker build run -p 1234:80 ic 
+docker run -p 1234:80 ic 
 ```
 
 #### How to use
