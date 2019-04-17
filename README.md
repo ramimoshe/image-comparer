@@ -8,8 +8,13 @@ docker build -t ic .
 ```
 
 #### How to run
+##### local build
 ```bash
 docker run -p 1234:80 ic 
+```
+##### docker hub
+```bash
+docker run -p 1234:80 ramimoshe/image-comparer
 ```
 
 #### How to use
