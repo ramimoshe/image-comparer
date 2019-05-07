@@ -11,4 +11,4 @@ EXPOSE 80
 ENV PORT=80 \
     WORKER_COUNT=4
 
-CMD ["gunicorn", "server:app", "--bind", "0.0.0.0:80", "--workers", "4", "--worker-class", "aiohttp.worker.GunicornWebWorker"]
+CMD ["gunicorn", "server:app", "--bind", "0.0.0.0:8024", "--workers", "4", "--worker-class", "aiohttp.worker.GunicornWebWorker"]

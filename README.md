@@ -10,11 +10,11 @@ docker build -t ic .
 #### How to run
 ##### local build
 ```bash
-docker run -p 1234:80 ic 
+docker run -p 1234:8024 ic 
 ```
 ##### docker hub
 ```bash
-docker run -p 1234:80 ramimoshe/image-comparer
+docker run -p 1234:8024 ramimoshe/image-comparer
 ```
 
 #### How to use
