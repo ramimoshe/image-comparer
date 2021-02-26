@@ -1,4 +1,4 @@
-aiohttp==3.5.4
+aiohttp==3.7.4
 numpy==1.16
 opencv-contrib-python-headless==4.0.1.24
 gunicorn==19.9.0
